@@ -47,3 +47,7 @@ app.get('/posts', (req, res) => {
     res.json(posts);
 
 })
+
+app.listen(port, () => {
+    console.log(`Example app listening on port ${port}`)
+})
